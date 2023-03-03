@@ -1,6 +1,39 @@
 # skills section data
 
-label: Ability
-id : cs
-aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
-percentage: 100, 35, 65, 80, 70, 90, 50
+- label: 掌握技能
+  id : cs
+  aspects: OOP思想,MVC开发模式
+  one: PHPUnit,PDO,MySQLI,PHPDocument,php-redis
+  two: SMTP,AMQP,HTTP,WebSocket,RESTFUL API,PSR,
+  three: MySQL查询优化,分库分表,隔离级别,锁,索引
+  four: Redis数据持久化,分布式,慢查询,ngnix负载均衡,shell基本命令,AJAX
+
+- label: 掌握语言
+  id : lg
+  aspects: PHP,sql,HTML,JavaScript,JSON,XML,MarkDown
+  percentage: 90, 80, 80, 75, 90, 90, 80
+
+- label: 掌握框架
+  id : fm
+  aspects: ThinkPHP v3-v6（主） && FastAdmin && [Larveral、YII（了解）] && [Swoole v4,Workerman v3-v4] && [WordPress,DEDECMS（织梦）(了解)] && Jquery && VUE3 && Uni-app && EasyUI && LayUI && Bootstrap
+
+
+- label: 操作系统
+  id : ss
+  aspects: Windows,Ubuntu,CentOs,Alpha
+  percentage: 100, 35, 65, 80
+
+- label: 环境部署
+  id : env
+  aspects: Docker,LNMP,LAMP
+  percentage: 100, 35, 65
+
+- label: 数据库&中间件
+  id : db
+  aspects: Mysql,SQL Server,Redis,RabbitMQ
+  percentage: 100, 60, 80, 60
+
+- label: 版本管理工具
+  id : vs
+  aspects: git，composer
+  percentage: 100,80

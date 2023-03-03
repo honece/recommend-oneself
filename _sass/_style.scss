@@ -2734,6 +2734,16 @@ body {
   }
 }
 
+@media screen and (max-width:600px) 
+{
+  .lang{float:none;}
+
+}
+@media screen and (min-width:600px) 
+{
+  .lang{float:left}
+}
+
 @media (max-width: 768px) {
   .landing-page {
     .carousel-caption {
