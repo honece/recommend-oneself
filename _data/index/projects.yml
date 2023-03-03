@@ -1,22 +1,16 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
+- name: 极付
   i18n: jalpc
   gh_user: jarrekk
   repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use Javascript to get repo's information all my repos have only one request.
+  img: /static/assets/img/landing/jf.png
+  desc: 这是一个关于跨境支付的项目，在项目中我主要负责商户系统与主系统业务的开发，根据客户的需求以提供新的功能，以及在项目中优化和新增各类数据如订单和客户基本信息的统计功能，在大部分相应的统计中，我将原本的统计响应时间提升到平均4倍
 
-- name: Python
+- name: 心理果果
   i18n: cpython
   gh_user: python
   repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
-
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  img: /static/assets/img/landing/xlgg.png
+  desc: 学校内关注学生心理健康检测与管理的软件，项目中用到的框架为ThinkPHP+bootstrap，在项目中我主要负责前端与后台的基础业务功能实现，有对接过阿里云的OOS，使图片加载响应速度上有了大幅度的提升，提升了用户的体验
