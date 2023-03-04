@@ -2733,15 +2733,61 @@ body {
     display: none;
   }
 }
+// 手机
+@media screen and (max-width:600px) {
+  .lang {
+    float: none;
+  }
+  .lgchart {
+    font-size: 17px;
+    line-height: 2;
+    width: 300px;
+    margin-left: 10%;
+  }
 
-@media screen and (max-width:600px) 
-{
-  .lang{float:none;}
-
+  .authdes {
+    margin-inline: 10%;
+    float: left;
+  }
+  .list-inline ul{
+  margin-left: 4%;
+  }
+  .list-inline li{
+    padding:0px;
+  }
+  .jn{
+    display: contents;
+    line-height: 2.5;
+  }
+  .jn ul{
+    width: 94%;
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width:600px) 
 {
+  .jn1{
+    margin-left: 12%;
+  }
+  
   .lang{float:left}
+  .authdes{
+    width: 33.33333333%;
+    float: left;
+  }
+  .jn{
+    display: inline-block;
+    line-height: 2.5;
+  }
+  .jn li{ 
+    font-size: 129%;
+  }
+  .lgchart {
+    font-size: 17px;
+    line-height: 2;
+    width: 300px;
+    margin-left: 10%;
+  }
 }
 
 @media (max-width: 768px) {

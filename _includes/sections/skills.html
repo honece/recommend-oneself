@@ -7,27 +7,29 @@
             <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
         </div>
     </div>
-    <div class="row features-block">
+    <div class="row features-block jn1">
         {% for skill in site.data.index.skills %}
         {% if skill.id == 'cs' %}
-        <div style="width: 40%; margin-left: 7%; display: inline-block;">
-            <p style="font-size: 160%;">{{ skill.label }}</p>
-            <div style="height: 76px;"></div>
-            <div style="font-size: 17px;line-height: 2.5;">
-                <div>{{ skill.aspects }}</div>
-                <div>{{ skill.one }}</div>
-                <div>{{ skill.two }}</div>
-                <div>{{ skill.three }}</div>
-                <div>{{ skill.four }}</div>
+        <div class="jn" style="width: 40%; margin-left: 7%;">
+            <p style="font-size: 160%; text-align: center;">{{ skill.label }}</p>
+            <div>
+                <ul>
+                    <li>{{ skill.aspects }}</li>
+                    <li>{{ skill.one }}</li>
+                    <li>{{ skill.two }}</li>
+                    <li>{{ skill.three }}</li>
+                    <li>{{ skill.four }}</li>
+                </ul>
+               
             </div>
         </div>
 
         {% endif %}
         {% if skill.id == 'lg' %}
-        <div class="lang" style="width: 40%; margin-left: 9%; display: block; ">
-            <p style="font-size: 160%;">{{ skill.label }}</p>
+        <div class="lang" style=" display: block; ">
+            <p style="font-size: 160%;text-align: center;">{{ skill.label }}</p>
 
-            <div style="font-size: 17px;line-height: 2; width: 350px;">
+            <div class="lgchart" >
                 <!-- todo -->
                 <canvas id="{{ skill.id }}" height="500" width="500"></canvas>
             </div>
