@@ -15,7 +15,7 @@
 
 - label: 掌握框架
   id : fm
-  aspects: ThinkPHP v3-v6（主） + FastAdmin（熟练使用） + [ Larveral、YII ]（了解） + [ Swoole v4、Workerman v3-v4 ]（熟练使用） + [ WordPress、DEDECMS ](了解) + Jquery（掌握） + [Uni-app 、 EasyUI 、 LayUI 、 Bootstrap、VUE3]（熟练使用）
+  aspects: ThinkPHP v3-v6（主） + FastAdmin（熟练使用） + [ Larveral、YII ]（了解） + [ Swoole v4、Workerman v3-v4 ]（熟练使用） + [ WordPress、DEDECMS ]（了解） + Jquery（掌握） + [Uni-app 、 EasyUI 、 LayUI 、 Bootstrap、VUE3]（熟练使用）
 
 
 - label: 操作系统
