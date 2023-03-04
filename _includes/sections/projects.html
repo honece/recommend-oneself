@@ -29,6 +29,14 @@
                   {% endif %}
                   </h4>
                   <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
+                  <div style="margin-left: 10%;    text-align: left;">
+                    <span><strong>项目负责</strong> </span>
+                    <ul style="list-style-type :none;padding: 0;margin: 0;">
+                        {% for my in project.duty %}
+                        <li style="color: #918986;">{{ my.desc }}</li>
+                        {% endfor %}
+                    </ul>
+                  </div>
                   {% if project.repo %}
                 
                   {% endif %}

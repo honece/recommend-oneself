@@ -12,8 +12,8 @@
         {% if skill.id == 'cs' %}
         <div class="jn" style="width: 40%; margin-left: 7%;">
             <p style="font-size: 160%; text-align: center;">{{ skill.label }}</p>
-            <div>
-                <ul>
+            <div class="jn2">
+                <ul style="line-height: 2.5;">
                     <li>{{ skill.aspects }}</li>
                     <li>{{ skill.one }}</li>
                     <li>{{ skill.two }}</li>
@@ -80,28 +80,28 @@
             </div>
             {% endif %}
             {% if skill.id == 'ss' %}
-            <div style="margin-left: 3%; display: inline-block;float: left;">
+            <div style="margin-left: 3%; float: left;">
                 <p style="font-size: 160%; ">{{ skill.label }}</p>
                 <div style="font-size: 18px;">{{ skill.aspects }}</div>
                 <br>
             </div>
             {% endif %}
             {% if skill.id == 'env' %}
-            <div style="margin-left: 3%; display: inline-block;float: left;">
+            <div style="margin-left: 3%; float: left;">
                 <p style="font-size: 160%; ">{{ skill.label }}</p>
                 <div style="font-size: 18px;">{{ skill.aspects }}</div>
                 <br>
             </div>
             {% endif %}
             {% if skill.id == 'db' %}
-            <div style="margin-left: 3%; display: inline-block;float: left;">
+            <div style="margin-left: 3%; float: left;">
                 <p style="font-size: 160%; ">{{ skill.label }}</p>
                 <div style="font-size: 18px;">{{ skill.aspects }}</div>
                 <br>
             </div>
             {% endif %}
             {% if skill.id == 'vs' %}
-            <div style="margin-left: 3%; display: inline-block;float: left;">
+            <div style="margin-left: 3%; float: left;">
                 <p style="font-size: 160%; ">{{ skill.label }}</p>
                 <div style="font-size: 18px;">{{ skill.aspects }}</div>
                 <br>
