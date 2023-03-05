@@ -24,7 +24,7 @@ author:  # change following line to your infomation.
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   birthday: 1998-08
   school: 哈尔滨信息工程学院|软件设计（游戏方向）|2016-2021
-  superiority: 可以承受较高的压力，喜欢探索新技术，接受不同的挑战，良好的代码编程习惯，对代码整洁度有洁癖，和良好的自学能力，能够对接Google，Ali，Baidu等各种第三方API接口
+  superiority: 可以承受较高的压力，喜欢探索新技术，接受不同的挑战，良好的代码编程习惯，对代码整洁度有洁癖，和良好的自学能力，追求精益求精，实际项目中，会把自己能想到的实现方式中按照最优方案解决问题，能够对接Google，Ali，Baidu等各种第三方API接口
   skill_icon1:
     - name: icon-apache
     - name: fa-linux
