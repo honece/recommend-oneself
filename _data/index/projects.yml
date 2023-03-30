@@ -32,7 +32,7 @@
 - name: Honece-chat
   gh_user: honece
   repo: honece_chat_client
-  img: /static/assets/img/landing/honece.png
+  img: /static/assets/img/landing/honece.PNG
   desc: 个人的命令行聊天项目，客户端采用 swoole的 tcpclient 结合 thinkphp 命令行，利用 swoole 的协程特性实现异步消息的接收，服务端采用 workerman的 gatewaywoker ,协议为 tcp ，功能主要分为群组和好友聊天
   duty:
   - desc: 程序整体的功能流程实现
